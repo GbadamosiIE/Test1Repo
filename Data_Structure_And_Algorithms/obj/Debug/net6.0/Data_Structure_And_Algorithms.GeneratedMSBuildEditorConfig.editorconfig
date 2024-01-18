@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Data_Structure_And_Algorithms
-build_property.ProjectDir = C:\Users\DELL\source\repos\Data_Structure_And_Algorithms\Data_Structure_And_Algorithms\
+build_property.ProjectDir = C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
