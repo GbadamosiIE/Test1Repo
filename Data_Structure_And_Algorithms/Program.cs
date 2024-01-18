@@ -558,3 +558,15 @@ static Dictionary<int, int> PrimeFactorAndNumberOfApperamce(int number)
 var arr = new int[] { 1,4,5,7,8,9,10,11,13 };
 var result = SearchAlgorithm.IsPalindrome("racecar");
 Console.WriteLine(result);
+static string ReverseWord(string str)
+{
+    var arr = str.Split(" ");
+    var list = new List<string>();
+    foreach (var item in arr)
+    {
+        var temp = item.ToCharArray();
+        Array.Reverse(temp);
+        list.Add(string.Join("", temp));
+    }
+    return string.Join(" ", list);
+}
