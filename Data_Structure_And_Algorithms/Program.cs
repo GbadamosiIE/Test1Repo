@@ -557,7 +557,7 @@ static Dictionary<int, int> PrimeFactorAndNumberOfApperamce(int number)
 }
 var arr = new int[] { 1,4,5,7,8,9,10,11,13 };
 var result = SearchAlgorithm.IsPalindrome("racecar");
-Console.WriteLine(result);
+//Console.WriteLine(result);
 static string ReverseWord(string str)
 {
     var arr = str.Split(" ");
@@ -570,3 +570,17 @@ static string ReverseWord(string str)
     }
     return string.Join(" ", list);
 }
+//rearrange the alphabets in the string base on the position of the number
+static string AlphabetPosition1(string text)
+{
+    return string.Join(" ", text.ToLower().Where(char.IsLetter).Select(x => x - 96));
+}
+//return  the alphabet in a string in aphabetic order e.g "The big brown fox" => "big brown fox The"
+static string AlphabetPosition(string text)
+{
+    var arr = text.Split(" ");
+    Array.Sort(arr);
+    return string.Join(" ", arr);
+}
+var result1 = AlphabetPosition("The big brown fox");
+Console.WriteLine(result1);

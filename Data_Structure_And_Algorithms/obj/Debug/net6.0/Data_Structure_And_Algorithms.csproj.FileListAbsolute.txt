@@ -12,3 +12,18 @@ C:\Users\DELL\source\repos\Data_Structure_And_Algorithms\Data_Structure_And_Algo
 C:\Users\DELL\source\repos\Data_Structure_And_Algorithms\Data_Structure_And_Algorithms\obj\Debug\net6.0\Data_Structure_And_Algorithms.pdb
 C:\Users\DELL\source\repos\Data_Structure_And_Algorithms\Data_Structure_And_Algorithms\obj\Debug\net6.0\Data_Structure_And_Algorithms.genruntimeconfig.cache
 C:\Users\DELL\source\repos\Data_Structure_And_Algorithms\Data_Structure_And_Algorithms\obj\Debug\net6.0\ref\Data_Structure_And_Algorithms.dll
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\bin\Debug\net6.0\Data_Structure_And_Algorithms.exe
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\bin\Debug\net6.0\Data_Structure_And_Algorithms.deps.json
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\bin\Debug\net6.0\Data_Structure_And_Algorithms.runtimeconfig.json
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\bin\Debug\net6.0\Data_Structure_And_Algorithms.dll
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\bin\Debug\net6.0\Data_Structure_And_Algorithms.pdb
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\obj\Debug\net6.0\Data_Structure_And_Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\obj\Debug\net6.0\Data_Structure_And_Algorithms.AssemblyInfoInputs.cache
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\obj\Debug\net6.0\Data_Structure_And_Algorithms.AssemblyInfo.cs
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\obj\Debug\net6.0\Data_Structure_And_Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\obj\Debug\net6.0\Data_Structure_And_Algorithms.sourcelink.json
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\obj\Debug\net6.0\Data_Structure_And_Algorithms.dll
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\obj\Debug\net6.0\refint\Data_Structure_And_Algorithms.dll
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\obj\Debug\net6.0\Data_Structure_And_Algorithms.pdb
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\obj\Debug\net6.0\Data_Structure_And_Algorithms.genruntimeconfig.cache
+C:\Users\idowug\OneDrive - ExamRoomAI\Desktop\AlgorithmPractices\Test1Repo\Data_Structure_And_Algorithms\obj\Debug\net6.0\ref\Data_Structure_And_Algorithms.dll
