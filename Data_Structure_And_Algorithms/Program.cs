@@ -584,3 +584,22 @@ static string AlphabetPosition(string text)
 }
 var result1 = AlphabetPosition("The big brown fox");
 Console.WriteLine(result1);
+
+// return a string form from the alphabet and the number next to it e'g "a3,b2,c1" => "aaabbc" use Linq
+static string AlphabetPosition2(string text)
+{
+    var arr = text.Split(",");
+    var list = new List<string>();
+    foreach (var item in arr)
+    {
+        var temp = item.ToCharArray();
+        var num = int.Parse($"{temp[1]}");
+        for (int i = 0; i < num; i++)
+        {
+            list.Add($"{temp[0]}");
+        }
+    }
+    return string.Join("", list);
+}
+var result2 = AlphabetPosition2("a3,b2,c1");
+Console.WriteLine(result2);
