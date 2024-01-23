@@ -602,4 +602,21 @@ static string AlphabetPosition2(string text)
     return string.Join("", list);
 }
 var result2 = AlphabetPosition2("a3,b2,c1");
-Console.WriteLine(result2);
+//Console.WriteLine(result2);
+// return if a string is of distint character e.g "abc" => true, "abca" => false
+static bool IsUnique(string str)
+{
+    var arr = str.ToCharArray();
+    var list = new List<char>();
+    foreach (var item in arr)
+    {
+        if (list.Contains(item))
+        {
+            return false;
+        }
+        list.Add(item);
+    }
+    return true;
+}
+var result3 = IsUnique("abc");
+Console.WriteLine(result3);
