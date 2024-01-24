@@ -620,3 +620,42 @@ static bool IsUnique(string str)
 }
 var result3 = IsUnique("abc");
 Console.WriteLine(result3);
+// Return the shortest path between two nodes in a graph
+static int ShortestPath(int[][] edges, int nodeA, int nodeB)
+{
+    var graph = new Dictionary<int, List<int>>();
+    foreach (var edge in edges)
+    {
+        if (!graph.ContainsKey(edge[0]))
+        {
+            graph.Add(edge[0], new List<int>());
+        }
+        graph[edge[0]].Add(edge[1]);
+    }
+    var queue = new Queue<int>();
+    var visited = new HashSet<int>();
+    var distance = new Dictionary<int, int>();
+    queue.Enqueue(nodeA);
+    visited.Add(nodeA);
+    distance.Add(nodeA, 0);
+    while (queue.Count > 0)
+    {
+        var current = queue.Dequeue();
+        if (current == nodeB)
+        {
+            return distance[current];
+        }
+        foreach (var neighbor in graph[current])
+        {
+            if (!visited.Contains(neighbor))
+            {
+                queue.Enqueue(neighbor);
+                visited.Add(neighbor);
+                distance.Add(neighbor, distance[current] + 1);
+            }
+        }
+    }
+    return -1;
+}
+var result4 = ShortestPath(new int[][] { new int[] { 1, 2 }, new int[] { 2, 3 }, new int[] { 3, 4 }, new int[] { 4, 5 }, new int[] { 5, 6 }, new int[] { 6, 7 } }, 1, 7);
+Console.WriteLine(result4);
