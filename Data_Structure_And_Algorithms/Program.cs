@@ -657,5 +657,18 @@ static int ShortestPath(int[][] edges, int nodeA, int nodeB)
     }
     return -1;
 }
-var result4 = ShortestPath(new int[][] { new int[] { 1, 2 }, new int[] { 2, 3 }, new int[] { 3, 4 }, new int[] { 4, 5 }, new int[] { 5, 6 }, new int[] { 6, 7 } }, 1, 7);
-Console.WriteLine(result4);
+//var result4 = ShortestPath(new int[][] { new int[] { 1, 2 }, new int[] { 2, 3 }, new int[] { 3, 4 }, new int[] { 4, 5 }, new int[] { 5, 6 }, new int[] { 6, 7 } }, 1, 7);
+//Console.WriteLine(result4);
+static int fib(int n){
+    
+    if(n <= 2)
+    {
+        return 1;
+    }
+    else{
+         return fib(n - 1) + fib(n - 2);
+     
+    }
+}
+var result5 = fib(50);
+Console.WriteLine(result5);
